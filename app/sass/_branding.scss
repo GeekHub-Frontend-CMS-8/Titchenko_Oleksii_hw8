@@ -1,0 +1,23 @@
+.container { /*наверное всем контейнерам в одном месте указать общие свойства?*/
+  justify-content: center;
+  align-items: center;
+  max-width: 940px;
+  margin: auto;
+}
+.branding {
+  background-color: #fafafa;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.branding__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 10%;
+}
+  img {
+    width: 100%;
+    max-width: 230px;
+  }
