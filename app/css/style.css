@@ -163,3 +163,37 @@ img {
       font-weight: 700; }
   .skills .container .skills-container {
     padding-right: 15px; }
+
+.awesome-container .container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  text-align: center;
+  padding: 100px 10px 60px; }
+  .awesome-container .container h3 {
+    font-family: Lato, sans-serif;
+    font-size: 26px; }
+    .awesome-container .container h3 span {
+      font-weight: 700; }
+  .awesome-container .container p {
+    color: #777777;
+    font-size: 22px;
+    font-weight: 400; }
+  .awesome-container .container .awesome-block-first {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .awesome-container .container .awesome-block-first cite {
+      color: #7690c5; }
+  .awesome-container .container .awesome-block-second {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .awesome-container .container .awesome-block-second cite {
+      color: #7690c5; }
+  .awesome-container .container .text-block {
+    border: 1px solid #e5e3d8;
+    background: #ffffff;
+    background-size: 100% 100%;
+    max-width: 640px;
+    font-size: 26px; }
