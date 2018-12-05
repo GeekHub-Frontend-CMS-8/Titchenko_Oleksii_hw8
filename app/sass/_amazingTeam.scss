@@ -1,7 +1,5 @@
 #amazing {
-
   background-color: #000000;
-
 
   .container {
     display:flex;
@@ -32,7 +30,7 @@
       text-align: center;
       p {
         color: #ffffff;
-        font-weight: 100; /*перебиваются стиля*/
+        font-weight: 100; /*перебиваются стиля, не тонкий шрифт */
       }
       .amazing-block-element-image {
         margin-bottom: 20px;
@@ -55,3 +53,4 @@
   font-weight: 400;
   text-align: center;
 }
+@import "media";

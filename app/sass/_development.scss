@@ -1,7 +1,6 @@
 .web {
   background-color: #ffffff;
   margin: auto;
-
 }
 .container {
   display: flex;
@@ -21,9 +20,9 @@
          font-weight: bold;
        }
      }
-      p {
-        margin-bottom: 40px;
-      }
+        p {
+          margin-bottom: 40px;
+        }
 
  .web__image {
    display: flex;
@@ -36,3 +35,4 @@
      width: 100%;
      max-width: 230px;
  }
+@import "media";

@@ -229,7 +229,7 @@ img {
       #amazing .amazing-block .amazing-block-element p {
         color: #ffffff;
         font-weight: 100;
-        /*перебиваются стиля*/ }
+        /*перебиваются стиля, не тонкий шрифт */ }
       #amazing .amazing-block .amazing-block-element .amazing-block-element-image {
         margin-bottom: 20px; }
 
@@ -301,7 +301,7 @@ img {
     #footer form textarea {
       padding: 15px;
       width: 100%;
-      min-height: 210px;
+      min-height: 200px;
       resize: none; }
   #footer .end_footer {
     padding: 30px;
