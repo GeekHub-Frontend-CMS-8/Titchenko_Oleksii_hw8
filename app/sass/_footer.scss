@@ -1,0 +1,78 @@
+#footer {
+  background-color: #7690c5;
+  .container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 10px 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #87a0d2;
+    max-width: 940px;
+  }
+  .contact-info {
+    width: 100%;
+    max-width: 450px;
+    color: #ffffff;
+  }
+  p {
+    margin: 20px 0 45px;
+
+    font-size: 18px;
+    font-weight: 400;
+  }
+  ul {
+    padding: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: space-between;
+    li {
+      margin: 20px 0;
+      flex-basis: 200px;
+      a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+        transition: 0.5s;
+        &:hover {
+          color: #c0c0c0;
+          text-decoration: none;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+  .fa {
+    margin-right: 10px;
+    font-size: 30px;
+  }
+  form {
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    input {
+      margin: 15px 0;
+      width: 100%;
+      padding: 15px;
+    }
+    textarea {
+      padding: 15px;
+      width: 100%;
+      min-height: 210px;
+      resize: none;
+    }
+  }
+  .end_footer {
+    padding: 30px;
+    text-align: center;
+    p {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+}
