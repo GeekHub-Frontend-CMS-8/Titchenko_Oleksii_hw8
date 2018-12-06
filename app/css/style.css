@@ -83,6 +83,19 @@ button {
   background-color: rgba(235, 235, 235, 0.16);
   cursor: pointer; }
 
+/* Large desktops and laptops */
+/* Landscape tablets and medium desktops */
+/* Portrait tablets and small desktops */
+/* Landscape phones and portrait tablets */
+/* Portrait phones and smaller */
+/* Iphone 5 */
+@media (max-width: 375px) {
+  .header__text button {
+    padding: 20px 65px;
+    height: auto; }
+  .header__text h1 {
+    font-size: 20px; } }
+
 .web {
   background-color: #ffffff;
   margin: auto; }
@@ -118,6 +131,19 @@ img {
   width: 100%;
   max-width: 230px; }
 
+/* Large desktops and laptops */
+/* Landscape tablets and medium desktops */
+/* Portrait tablets and small desktops */
+/* Landscape phones and portrait tablets */
+/* Portrait phones and smaller */
+/* Iphone 5 */
+@media (max-width: 375px) {
+  .header__text button {
+    padding: 20px 65px;
+    height: auto; }
+  .header__text h1 {
+    font-size: 20px; } }
+
 .container {
   /*наверное всем контейнерам в одном месте указать общие свойства?*/
   justify-content: center;
@@ -143,6 +169,19 @@ img {
   max-width: 270px;
   max-height: 200px; }
 
+/* Large desktops and laptops */
+/* Landscape tablets and medium desktops */
+/* Portrait tablets and small desktops */
+/* Landscape phones and portrait tablets */
+/* Portrait phones and smaller */
+/* Iphone 5 */
+@media (max-width: 375px) {
+  .header__text button {
+    padding: 20px 65px;
+    height: auto; }
+  .header__text h1 {
+    font-size: 20px; } }
+
 .skills .container {
   display: flex;
   flex-direction: row;
@@ -163,6 +202,19 @@ img {
       font-weight: 700; }
   .skills .container .skills-container {
     padding-right: 15px; }
+
+/* Large desktops and laptops */
+/* Landscape tablets and medium desktops */
+/* Portrait tablets and small desktops */
+/* Landscape phones and portrait tablets */
+/* Portrait phones and smaller */
+/* Iphone 5 */
+@media (max-width: 375px) {
+  .header__text button {
+    padding: 20px 65px;
+    height: auto; }
+  .header__text h1 {
+    font-size: 20px; } }
 
 .awesome-container {
   background-color: #fafafa; }
@@ -199,9 +251,35 @@ img {
       max-width: 640px;
       font-size: 26px; }
 
+/* Large desktops and laptops */
+/* Landscape tablets and medium desktops */
+/* Portrait tablets and small desktops */
+/* Landscape phones and portrait tablets */
+/* Portrait phones and smaller */
+/* Iphone 5 */
+@media (max-width: 375px) {
+  .header__text button {
+    padding: 20px 65px;
+    height: auto; }
+  .header__text h1 {
+    font-size: 20px; } }
+
 .logo-client {
   display: flex;
   margin: 10px 30px; }
+
+/* Large desktops and laptops */
+/* Landscape tablets and medium desktops */
+/* Portrait tablets and small desktops */
+/* Landscape phones and portrait tablets */
+/* Portrait phones and smaller */
+/* Iphone 5 */
+@media (max-width: 375px) {
+  .header__text button {
+    padding: 20px 65px;
+    height: auto; }
+  .header__text h1 {
+    font-size: 20px; } }
 
 #amazing {
   background-color: #000000; }
@@ -246,6 +324,19 @@ img {
   font-size: 20px;
   font-weight: 400;
   text-align: center; }
+
+/* Large desktops and laptops */
+/* Landscape tablets and medium desktops */
+/* Portrait tablets and small desktops */
+/* Landscape phones and portrait tablets */
+/* Portrait phones and smaller */
+/* Iphone 5 */
+@media (max-width: 375px) {
+  .header__text button {
+    padding: 20px 65px;
+    height: auto; }
+  .header__text h1 {
+    font-size: 20px; } }
 
 #footer {
   background-color: #7690c5; }
@@ -310,3 +401,29 @@ img {
       color: #ffffff;
       font-size: 16px;
       font-weight: 400; }
+
+/* Large desktops and laptops */
+/* Landscape tablets and medium desktops */
+/* Portrait tablets and small desktops */
+/* Landscape phones and portrait tablets */
+/* Portrait phones and smaller */
+/* Iphone 5 */
+@media (max-width: 375px) {
+  .header__text button {
+    padding: 20px 65px;
+    height: auto; }
+  .header__text h1 {
+    font-size: 20px; } }
+
+/* Large desktops and laptops */
+/* Landscape tablets and medium desktops */
+/* Portrait tablets and small desktops */
+/* Landscape phones and portrait tablets */
+/* Portrait phones and smaller */
+/* Iphone 5 */
+@media (max-width: 375px) {
+  .header__text button {
+    padding: 20px 65px;
+    height: auto; }
+  .header__text h1 {
+    font-size: 20px; } }
