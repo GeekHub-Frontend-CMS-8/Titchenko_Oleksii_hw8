@@ -25,13 +25,72 @@
 
 /* Iphone 5 */
 @media (max-width: 375px) {
+  .header__section {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+
   .header__text {
     button {
-      padding: 20px 65px;
+      padding: auto;
       height: auto;
+      width: 140px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+    .header__text h1 {
+      padding: 10px 0 25px;
+      font-size: 20px;
     }
     h1 {
       font-size: 20px;
     }
   }
+  .header__logo {
+    padding-right: 25px;
+    padding-bottom: 10px;
+    width: auto;
+  }
+  .web {
+    padding-left: 10px;
+  }
+  .web .container {
+    padding : 10px 5px 2px 2px;
+
+  }
+  .web__text h3{
+    text-align: center;
+  }
+  .branding {
+    padding-left: 10px;
+  }
+  .branding .container {
+    padding : 10px 5px 2px 2px;
+  }
+.skills .container {
+  padding : 10px 5px 2px 2px;
+}
+  .awesome-container .container {
+    padding : 10px 5px 2px 2px;
+  }
+  .awesome-block-first {
+  padding-left: 10px;
+}
+  .logos .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  #amazing .container {
+    padding : 20px 5px 2px 2px;
+  }
+
+#footer .container {
+  padding-left: 5px;
+  padding-top: 15px;
+  text-align: center;
+  .container p {
+    padding: 5px 0 5px;
+  }
+}
 }

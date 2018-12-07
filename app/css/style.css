@@ -34,7 +34,7 @@
       padding-left: 15px;
       padding-top: 10px;
       color: #fff;
-      /*font-family:*/
+      font-family: Lato, sans-serif;
       font-size: 18px;
       font-weight: 500;
       text-decoration: none; }
@@ -90,11 +90,52 @@ button {
 /* Portrait phones and smaller */
 /* Iphone 5 */
 @media (max-width: 375px) {
+  .header__section {
+    padding-top: 15px;
+    padding-bottom: 20px; }
   .header__text button {
-    padding: 20px 65px;
-    height: auto; }
+    padding: auto;
+    height: auto;
+    width: 140px;
+    margin-top: 10px;
+    margin-bottom: 30px; }
+  .header__text .header__text h1 {
+    padding: 10px 0 25px;
+    font-size: 20px; }
   .header__text h1 {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .header__logo {
+    padding-right: 25px;
+    padding-bottom: 10px;
+    width: auto; }
+  .web {
+    padding-left: 10px; }
+  .web .container {
+    padding: 10px 5px 2px 2px; }
+  .web__text h3 {
+    text-align: center; }
+  .branding {
+    padding-left: 10px; }
+  .branding .container {
+    padding: 10px 5px 2px 2px; }
+  .skills .container {
+    padding: 10px 5px 2px 2px; }
+  .awesome-container .container {
+    padding: 10px 5px 2px 2px; }
+  .awesome-block-first {
+    padding-left: 10px; }
+  .logos .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px; }
+  #amazing .container {
+    padding: 20px 5px 2px 2px; }
+  #footer .container {
+    padding-left: 5px;
+    padding-top: 15px;
+    text-align: center; }
+    #footer .container .container p {
+      padding: 5px 0 5px; } }
 
 .web {
   background-color: #ffffff;
@@ -138,11 +179,52 @@ img {
 /* Portrait phones and smaller */
 /* Iphone 5 */
 @media (max-width: 375px) {
+  .header__section {
+    padding-top: 15px;
+    padding-bottom: 20px; }
   .header__text button {
-    padding: 20px 65px;
-    height: auto; }
+    padding: auto;
+    height: auto;
+    width: 140px;
+    margin-top: 10px;
+    margin-bottom: 30px; }
+  .header__text .header__text h1 {
+    padding: 10px 0 25px;
+    font-size: 20px; }
   .header__text h1 {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .header__logo {
+    padding-right: 25px;
+    padding-bottom: 10px;
+    width: auto; }
+  .web {
+    padding-left: 10px; }
+  .web .container {
+    padding: 10px 5px 2px 2px; }
+  .web__text h3 {
+    text-align: center; }
+  .branding {
+    padding-left: 10px; }
+  .branding .container {
+    padding: 10px 5px 2px 2px; }
+  .skills .container {
+    padding: 10px 5px 2px 2px; }
+  .awesome-container .container {
+    padding: 10px 5px 2px 2px; }
+  .awesome-block-first {
+    padding-left: 10px; }
+  .logos .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px; }
+  #amazing .container {
+    padding: 20px 5px 2px 2px; }
+  #footer .container {
+    padding-left: 5px;
+    padding-top: 15px;
+    text-align: center; }
+    #footer .container .container p {
+      padding: 5px 0 5px; } }
 
 .container {
   /*наверное всем контейнерам в одном месте указать общие свойства?*/
@@ -176,11 +258,52 @@ img {
 /* Portrait phones and smaller */
 /* Iphone 5 */
 @media (max-width: 375px) {
+  .header__section {
+    padding-top: 15px;
+    padding-bottom: 20px; }
   .header__text button {
-    padding: 20px 65px;
-    height: auto; }
+    padding: auto;
+    height: auto;
+    width: 140px;
+    margin-top: 10px;
+    margin-bottom: 30px; }
+  .header__text .header__text h1 {
+    padding: 10px 0 25px;
+    font-size: 20px; }
   .header__text h1 {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .header__logo {
+    padding-right: 25px;
+    padding-bottom: 10px;
+    width: auto; }
+  .web {
+    padding-left: 10px; }
+  .web .container {
+    padding: 10px 5px 2px 2px; }
+  .web__text h3 {
+    text-align: center; }
+  .branding {
+    padding-left: 10px; }
+  .branding .container {
+    padding: 10px 5px 2px 2px; }
+  .skills .container {
+    padding: 10px 5px 2px 2px; }
+  .awesome-container .container {
+    padding: 10px 5px 2px 2px; }
+  .awesome-block-first {
+    padding-left: 10px; }
+  .logos .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px; }
+  #amazing .container {
+    padding: 20px 5px 2px 2px; }
+  #footer .container {
+    padding-left: 5px;
+    padding-top: 15px;
+    text-align: center; }
+    #footer .container .container p {
+      padding: 5px 0 5px; } }
 
 .skills .container {
   display: flex;
@@ -210,11 +333,52 @@ img {
 /* Portrait phones and smaller */
 /* Iphone 5 */
 @media (max-width: 375px) {
+  .header__section {
+    padding-top: 15px;
+    padding-bottom: 20px; }
   .header__text button {
-    padding: 20px 65px;
-    height: auto; }
+    padding: auto;
+    height: auto;
+    width: 140px;
+    margin-top: 10px;
+    margin-bottom: 30px; }
+  .header__text .header__text h1 {
+    padding: 10px 0 25px;
+    font-size: 20px; }
   .header__text h1 {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .header__logo {
+    padding-right: 25px;
+    padding-bottom: 10px;
+    width: auto; }
+  .web {
+    padding-left: 10px; }
+  .web .container {
+    padding: 10px 5px 2px 2px; }
+  .web__text h3 {
+    text-align: center; }
+  .branding {
+    padding-left: 10px; }
+  .branding .container {
+    padding: 10px 5px 2px 2px; }
+  .skills .container {
+    padding: 10px 5px 2px 2px; }
+  .awesome-container .container {
+    padding: 10px 5px 2px 2px; }
+  .awesome-block-first {
+    padding-left: 10px; }
+  .logos .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px; }
+  #amazing .container {
+    padding: 20px 5px 2px 2px; }
+  #footer .container {
+    padding-left: 5px;
+    padding-top: 15px;
+    text-align: center; }
+    #footer .container .container p {
+      padding: 5px 0 5px; } }
 
 .awesome-container {
   background-color: #fafafa; }
@@ -258,11 +422,52 @@ img {
 /* Portrait phones and smaller */
 /* Iphone 5 */
 @media (max-width: 375px) {
+  .header__section {
+    padding-top: 15px;
+    padding-bottom: 20px; }
   .header__text button {
-    padding: 20px 65px;
-    height: auto; }
+    padding: auto;
+    height: auto;
+    width: 140px;
+    margin-top: 10px;
+    margin-bottom: 30px; }
+  .header__text .header__text h1 {
+    padding: 10px 0 25px;
+    font-size: 20px; }
   .header__text h1 {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .header__logo {
+    padding-right: 25px;
+    padding-bottom: 10px;
+    width: auto; }
+  .web {
+    padding-left: 10px; }
+  .web .container {
+    padding: 10px 5px 2px 2px; }
+  .web__text h3 {
+    text-align: center; }
+  .branding {
+    padding-left: 10px; }
+  .branding .container {
+    padding: 10px 5px 2px 2px; }
+  .skills .container {
+    padding: 10px 5px 2px 2px; }
+  .awesome-container .container {
+    padding: 10px 5px 2px 2px; }
+  .awesome-block-first {
+    padding-left: 10px; }
+  .logos .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px; }
+  #amazing .container {
+    padding: 20px 5px 2px 2px; }
+  #footer .container {
+    padding-left: 5px;
+    padding-top: 15px;
+    text-align: center; }
+    #footer .container .container p {
+      padding: 5px 0 5px; } }
 
 .logo-client {
   display: flex;
@@ -275,11 +480,52 @@ img {
 /* Portrait phones and smaller */
 /* Iphone 5 */
 @media (max-width: 375px) {
+  .header__section {
+    padding-top: 15px;
+    padding-bottom: 20px; }
   .header__text button {
-    padding: 20px 65px;
-    height: auto; }
+    padding: auto;
+    height: auto;
+    width: 140px;
+    margin-top: 10px;
+    margin-bottom: 30px; }
+  .header__text .header__text h1 {
+    padding: 10px 0 25px;
+    font-size: 20px; }
   .header__text h1 {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .header__logo {
+    padding-right: 25px;
+    padding-bottom: 10px;
+    width: auto; }
+  .web {
+    padding-left: 10px; }
+  .web .container {
+    padding: 10px 5px 2px 2px; }
+  .web__text h3 {
+    text-align: center; }
+  .branding {
+    padding-left: 10px; }
+  .branding .container {
+    padding: 10px 5px 2px 2px; }
+  .skills .container {
+    padding: 10px 5px 2px 2px; }
+  .awesome-container .container {
+    padding: 10px 5px 2px 2px; }
+  .awesome-block-first {
+    padding-left: 10px; }
+  .logos .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px; }
+  #amazing .container {
+    padding: 20px 5px 2px 2px; }
+  #footer .container {
+    padding-left: 5px;
+    padding-top: 15px;
+    text-align: center; }
+    #footer .container .container p {
+      padding: 5px 0 5px; } }
 
 #amazing {
   background-color: #000000; }
@@ -332,11 +578,52 @@ img {
 /* Portrait phones and smaller */
 /* Iphone 5 */
 @media (max-width: 375px) {
+  .header__section {
+    padding-top: 15px;
+    padding-bottom: 20px; }
   .header__text button {
-    padding: 20px 65px;
-    height: auto; }
+    padding: auto;
+    height: auto;
+    width: 140px;
+    margin-top: 10px;
+    margin-bottom: 30px; }
+  .header__text .header__text h1 {
+    padding: 10px 0 25px;
+    font-size: 20px; }
   .header__text h1 {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .header__logo {
+    padding-right: 25px;
+    padding-bottom: 10px;
+    width: auto; }
+  .web {
+    padding-left: 10px; }
+  .web .container {
+    padding: 10px 5px 2px 2px; }
+  .web__text h3 {
+    text-align: center; }
+  .branding {
+    padding-left: 10px; }
+  .branding .container {
+    padding: 10px 5px 2px 2px; }
+  .skills .container {
+    padding: 10px 5px 2px 2px; }
+  .awesome-container .container {
+    padding: 10px 5px 2px 2px; }
+  .awesome-block-first {
+    padding-left: 10px; }
+  .logos .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px; }
+  #amazing .container {
+    padding: 20px 5px 2px 2px; }
+  #footer .container {
+    padding-left: 5px;
+    padding-top: 15px;
+    text-align: center; }
+    #footer .container .container p {
+      padding: 5px 0 5px; } }
 
 #footer {
   background-color: #7690c5; }
@@ -409,11 +696,52 @@ img {
 /* Portrait phones and smaller */
 /* Iphone 5 */
 @media (max-width: 375px) {
+  .header__section {
+    padding-top: 15px;
+    padding-bottom: 20px; }
   .header__text button {
-    padding: 20px 65px;
-    height: auto; }
+    padding: auto;
+    height: auto;
+    width: 140px;
+    margin-top: 10px;
+    margin-bottom: 30px; }
+  .header__text .header__text h1 {
+    padding: 10px 0 25px;
+    font-size: 20px; }
   .header__text h1 {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .header__logo {
+    padding-right: 25px;
+    padding-bottom: 10px;
+    width: auto; }
+  .web {
+    padding-left: 10px; }
+  .web .container {
+    padding: 10px 5px 2px 2px; }
+  .web__text h3 {
+    text-align: center; }
+  .branding {
+    padding-left: 10px; }
+  .branding .container {
+    padding: 10px 5px 2px 2px; }
+  .skills .container {
+    padding: 10px 5px 2px 2px; }
+  .awesome-container .container {
+    padding: 10px 5px 2px 2px; }
+  .awesome-block-first {
+    padding-left: 10px; }
+  .logos .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px; }
+  #amazing .container {
+    padding: 20px 5px 2px 2px; }
+  #footer .container {
+    padding-left: 5px;
+    padding-top: 15px;
+    text-align: center; }
+    #footer .container .container p {
+      padding: 5px 0 5px; } }
 
 /* Large desktops and laptops */
 /* Landscape tablets and medium desktops */
@@ -422,8 +750,49 @@ img {
 /* Portrait phones and smaller */
 /* Iphone 5 */
 @media (max-width: 375px) {
+  .header__section {
+    padding-top: 15px;
+    padding-bottom: 20px; }
   .header__text button {
-    padding: 20px 65px;
-    height: auto; }
+    padding: auto;
+    height: auto;
+    width: 140px;
+    margin-top: 10px;
+    margin-bottom: 30px; }
+  .header__text .header__text h1 {
+    padding: 10px 0 25px;
+    font-size: 20px; }
   .header__text h1 {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .header__logo {
+    padding-right: 25px;
+    padding-bottom: 10px;
+    width: auto; }
+  .web {
+    padding-left: 10px; }
+  .web .container {
+    padding: 10px 5px 2px 2px; }
+  .web__text h3 {
+    text-align: center; }
+  .branding {
+    padding-left: 10px; }
+  .branding .container {
+    padding: 10px 5px 2px 2px; }
+  .skills .container {
+    padding: 10px 5px 2px 2px; }
+  .awesome-container .container {
+    padding: 10px 5px 2px 2px; }
+  .awesome-block-first {
+    padding-left: 10px; }
+  .logos .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px; }
+  #amazing .container {
+    padding: 20px 5px 2px 2px; }
+  #footer .container {
+    padding-left: 5px;
+    padding-top: 15px;
+    text-align: center; }
+    #footer .container .container p {
+      padding: 5px 0 5px; } }
