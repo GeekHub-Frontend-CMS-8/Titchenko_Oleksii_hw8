@@ -20,6 +20,15 @@
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
+  .head .header__section .header__logo {
+    padding-right: 50px;
+  }
+  .header__menu {
+    display: block;
+  }
+  .header__text p{
+    margin-bottom: 5px;
+  }                          /*свойство перебивается*/
 
 }
 
@@ -42,6 +51,7 @@
       padding: 10px 0 25px;
       font-size: 20px;
     }
+
     h1 {
       font-size: 20px;
     }
